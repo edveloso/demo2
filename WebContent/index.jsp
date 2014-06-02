@@ -23,9 +23,8 @@
 		  
 			<div class="span8 text-right">
 				<ul  class="list-inline">
-					<li><a href="usuario/cadastro">Formulario de cadastro</a></li>
-					<li><a href="usuario/cadastro">Formulario de ###</a></li>
-					<li><a href="usuario/cadastro">Formulario de ####</a></li>
+					<li><a href="usuario/lista">Lista de usuarios</a></li>
+					<li><a href="usuario/cadastro">Formulario de cadastro de usuarios</a></li>
 				</ul>
 			</div>
 

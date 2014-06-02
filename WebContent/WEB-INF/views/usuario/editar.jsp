@@ -29,11 +29,11 @@
 				</ul>
 			</div>
 
-			
-			<form action="gravarCadastro">
-				Nome <input type="text" name="nome"> <br>
-				Login  <input type="text" name="login"> <br>
-				Senha  <input type="text" name="senha"> <br>
+			<form action="alterar">
+				<div class="well">Nome: ${usuario.nome}</div>
+				<input type="hidden" name="nome" value="${usuario.nome}">   
+				Login  <input type="text" value="${usuario.login}" name="login"> <br>
+				Senha  <input type="text" value="${usuario.senha}" name="senha"> <br>
 				<input	type="submit" value="Enviar">
 			</form>
 		</div>
