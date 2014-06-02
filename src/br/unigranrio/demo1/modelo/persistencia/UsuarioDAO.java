@@ -29,6 +29,7 @@ public class UsuarioDAO {
 	}
 	
 	public void deletarBy(String nome){
+		
 		for (Usuario u : usuarios) {
 			if(u.getNome().equals(nome))
 				usuarios.remove(u);		

@@ -44,7 +44,7 @@
 				    <td>${usu.senha}</td>
 				    <td>
 				      <a href="formEditar?nome=${usu.nome}">Editar</a>|
-				      <a href="deletar?usuario=${usu}">Deletar</a>|
+				      <a href="deletar?nome=${usu.nome}">Deletar</a>|
 				    
 				    
 				    </td>
